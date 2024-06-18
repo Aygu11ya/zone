@@ -1,0 +1,398 @@
+@media(max-width:1280px) {
+    .header>img {
+        width: 600px;
+        height: 600px;
+    }
+}
+
+@media(max-width:1200px) {
+    .header>img {
+        width: 500px;
+        height: 500px;
+    }
+
+    .header-nav .container {
+        justify-content: center;
+        gap: 300px;
+    }
+
+    h1 {
+        width: 446px;
+
+    }
+
+    .header-content p {
+        width: 446px;
+    }
+
+    .header-content-links {
+        width: 446px;
+    }
+
+    .ourService {
+        gap: 20px;
+    }
+    .img{
+        width: 500px;
+        height: 500px;
+    }
+    h4{
+        font-size: 35px;
+    }
+    .team{
+        gap: 15px;
+    }
+    .box p{
+        text-align: center;
+    }
+    .subscribe {
+        padding: 0 100px 35px;
+    }
+    .footer .container {
+        gap: 10px;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media(max-width:995px) {
+    .header>img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .header-nav .container {
+        gap: 100px;
+    }
+
+    .nav {
+        gap: 40px;
+    }
+
+    h1 {
+        font-size: 45px;
+        width: 350px;
+    }
+
+    .header-content p {
+        width: 350px;
+    }
+
+    .header-content-links {
+        width: 450px;
+        gap: 10px;
+    }
+    .team {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+       
+    }
+    .subscribe {
+        padding: 0 70px 35px;
+    }
+}
+
+@media(max-width:900px) {
+   .img{
+    width: 400px;
+    height: 400px;
+} 
+input{
+    padding: 20px 100px 20px 44px;
+}
+}
+
+@media(max-width:800px) {
+    h1 {
+        font-size: 35px;
+        width: 250px;
+    }
+
+    .header-content p {
+        width: 250px;
+        font-size: 10px;
+    }
+
+    .header-content-links {
+        width: 450px;
+        justify-content: center;
+    }
+
+    .header-content-links a {
+        font-size: 15px;
+        gap: 6px;
+    }
+
+    .ourService {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    h2{
+        font-size: 35px;
+    }
+    .container .parag {
+        font-size: 13px;
+        width: 500px;
+    }
+    input{
+        padding: 20px 70px 20px 35px;
+        font-size: 12px;
+    }
+    button a {
+        font-size: 15px;
+    }
+    .footer .container {
+        gap: 10px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+@media(max-width:710px) {
+    .header>img {
+        width: 500px;
+        height: 500px;
+    }
+
+    .one {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    h1 {
+        font-size: 35px;
+        width: 450px;
+        text-align: center;
+    }
+
+    .header-content p {
+        width: 450px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .header-content-links {
+        width: 450px;
+        justify-content: center;
+    }
+
+    .header-content-links a {
+        font-size: 20px;
+    }
+
+    .header-nav .container {
+        gap: 60px;
+    }
+
+    .nav {
+        gap: 20px;
+    }
+    h4{
+        font-size: 30px;
+    }
+    .we-content p {
+        font-size: 13px;
+    }
+    .img{
+        width: 350px;
+        height: 350px;
+    }
+    .subscribe {
+        padding: 0 40px 35px;
+    }
+}
+
+@media(max-width: 650px) {
+    .section-one .container{
+        flex-direction: column;
+    }
+    .section-two .container{
+        flex-direction: column-reverse;
+    }
+    .we-content {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .we-content p {
+        text-align: center;
+    }
+    .subscribe {
+        padding: 0;
+    }
+    .footer .container {
+        gap: 10px;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: start;
+        padding: 0 15px;
+    }
+    .footer .end .container ul{
+        gap: 10px;
+    }
+}
+
+@media(max-width: 550px) {
+    .nav {
+        position: fixed;
+        width: 30%;
+        height: 100vh;
+        right: 0;
+        top: 0;
+        background: var(--Gd, linear-gradient(90deg, #395288 0.11%, #7b4383 58.65%));
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        transform: translateY(-100%);
+        transition: 1s;
+        backdrop-filter: blur(1px);
+    }
+
+    .burger {
+        display: block;
+        width: 40px;
+        height: 40px;
+    }
+
+    .burger:hover~.nav {
+        transform: translateY(0);
+    }
+
+    .header-nav .container {
+        gap: 350px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .container .parag {
+        font-size: 11px;
+        width: 450px;
+    }
+    .ourService {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+    h4{
+        font-size: 25px;
+    }
+    .we-content p {
+        font-size: 11px;
+    }
+}
+
+@media(max-width: 500px) {
+    .header-nav .container {
+        gap: 300px;
+    } 
+    .header>img {
+        width: 400px;
+        height: 400px;
+    }
+    .container .parag{
+        width: 350px;
+    }
+    .team{
+        grid-template-columns: repeat(1, 1fr);
+        width: 300px;
+    }
+    input{
+        padding: 20px 40px 20px 10px;
+    }
+    .footer .end .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer .end .container .parag {
+        text-align: center;
+    }
+}
+
+@media(max-width: 450px) {
+   
+
+    h1 {
+        font-size: 30px;
+        width: 370px;
+
+    }
+
+    .header-content p {
+        width: 370px;
+        font-size: 15px;
+    }
+
+    .header-content-links {
+        width: 370px;
+
+    }
+
+    .header-content-links a {
+        font-size: 16px;
+    }
+
+    .header-nav .container {
+        gap: 250px;
+    }
+    input{
+        padding: 20px 30px 20px 10px;
+        font-size: 10px;
+    }
+    button a {
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 400px) {
+    .header-nav .container {
+        gap: 200px;
+    }
+    .header>img {
+        width: 300px;
+        height: 300px;
+    }
+    .header-content p {
+        width: 300px;
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 30px;
+        width: 300px;
+
+    }
+    .container .parag {
+        width: 300px;
+    }
+    .header-content-links {
+        width: 350px;
+        gap: 5px;
+
+    }
+    .but {
+        padding: 10px 30px;
+    }
+    .but1 {
+        padding: 10px 30px;
+    }
+    .img{
+        width: 270px;
+        height: 270px;
+    }
+    .team{
+        grid-template-columns: repeat(1, 1fr);
+        width: 280px;
+    }
+    input{
+        padding: 10px 20px 10px 10px;
+        font-size: 10px;
+    }
+    button{
+        padding: 10px 20px;
+    }
+}
+
+@media(max-width: 350px) {
+    .header-nav .container {
+        gap: 150px;
+    }
+}
